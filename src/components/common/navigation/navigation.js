@@ -98,7 +98,12 @@ export default class Navigation extends Component {
 
           <Mobile hide>{this.getNavList({})}</Mobile>
           <ActionsContainer>
-            <button>Contact</button>
+            <button
+              href="https://api.whatsapp.com/send?phone=6287853100628&text=Hello"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </button>
           </ActionsContainer>
         </StyledContainer>
         <Mobile>

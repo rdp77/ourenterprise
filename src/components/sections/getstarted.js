@@ -6,8 +6,8 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection id="portfolio">
     <GetStartedContainer>
-      <GetStartedTitle>Portfolio</GetStartedTitle>
-      <TryItButton>Show</TryItButton>
+      <GetStartedTitle>See the work produced by our team</GetStartedTitle>
+      <TryItButton>Give me a show</TryItButton>
       <Subtitle>Our portfolio is managed by Instagram.</Subtitle>
     </GetStartedContainer>
   </StyledSection>
