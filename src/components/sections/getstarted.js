@@ -7,7 +7,13 @@ const GetStarted = () => (
   <StyledSection id="portfolio">
     <GetStartedContainer>
       <GetStartedTitle>See the work produced by our team</GetStartedTitle>
-      <TryItButton>Give me a show</TryItButton>
+      <TryItButton
+        href="https://www.instagram.com/ourenterprise/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Give me a show
+      </TryItButton>
       <Subtitle>Our portfolio is managed by Instagram.</Subtitle>
     </GetStartedContainer>
   </StyledSection>
@@ -33,7 +39,7 @@ const GetStartedTitle = styled.h3`
   text-align: center;
 `
 
-const TryItButton = styled.button`
+const TryItButton = styled.a`
   font-weight: 500;
   font-size: 14px;
   color: white;
