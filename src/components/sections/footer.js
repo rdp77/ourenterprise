@@ -17,12 +17,14 @@ const Footer = () => (
         <span>Social</span>
         <ul>
           <li>LinkedIn</li>
-          <li
-            href="https://www.instagram.com/ourenterprise/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Instagram
+          <li>
+            <a
+              href="https://www.instagram.com/ourenterprise/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
           </li>
         </ul>
       </FooterColumn>

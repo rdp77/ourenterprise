@@ -95,6 +95,7 @@ export const ActionsContainer = styled.div`
     ${(props) => props.theme.font_size.xsmall};
     color: white;
     background: #098b8c;
+    text-decoration: none;
     border-radius: 4px;
     padding: 10px 16px;
     text-transform: uppercase;
