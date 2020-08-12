@@ -8,7 +8,10 @@ import { Container } from "../global"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
+      file(
+        sourceInstanceName: { eq: "product" }
+        name: { eq: "work_together" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -37,6 +40,13 @@ const Header = () => {
               We're building next generation personal finance tools. Sign up to
               get early access.
             </h2>
+            <HeaderButton
+              href="https://api.whatsapp.com/send?phone=6287853100628&text=Hello"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Contact us now
+            </HeaderButton>
             {/* <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
               <HeaderButton>Early access</HeaderButton>
@@ -160,7 +170,9 @@ const HeaderInput = styled.input`
   }
 `
 
-const HeaderButton = styled.button`
+const HeaderButton = styled.a`
+  text-decoration: none;
+  padding: 20px;
   font-weight: 500;
   font-size: 14px;
   color: white;

@@ -91,6 +91,9 @@ const FooterColumn = styled.div`
       margin-bottom: 12px;
       font-family: ${(props) => props.theme.font.normal};
       font-size: 15px;
+      a {
+        text-decoration: none;
+      }
     }
   }
 `
