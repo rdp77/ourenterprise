@@ -93,6 +93,7 @@ const FooterColumn = styled.div`
       font-size: 15px;
       a {
         text-decoration: none;
+        color: ${(props) => props.theme.color.black.regular};
       }
     }
   }

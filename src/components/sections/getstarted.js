@@ -54,7 +54,6 @@ const PortfolioButton = styled.a`
   white-space: nowrap;
   background: ${(props) => props.theme.color.secondary};
   border-radius: 4px;
-  padding: 0px 40px;
   border-width: 0px;
   border-style: initial;
   border-color: initial;
