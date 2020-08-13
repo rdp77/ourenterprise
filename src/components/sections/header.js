@@ -10,7 +10,7 @@ const Header = () => {
     query {
       file(
         sourceInstanceName: { eq: "product" }
-        name: { eq: "work_together" }
+        name: { eq: "work_together.svg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1000) {
