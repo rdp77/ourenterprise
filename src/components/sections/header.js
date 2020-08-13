@@ -30,15 +30,15 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Introduction</Subtitle>
             <h1>
-              All your money,
+              Professionalism
               <br />
-              one account
+              is our priority
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              We help your work to be lighter and handled by our professional
+              team.
             </h2>
             <HeaderButton
               href="https://api.whatsapp.com/send?phone=6287853100628&text=Hello"
@@ -172,6 +172,7 @@ const HeaderInput = styled.input`
 
 const HeaderButton = styled.a`
   text-decoration: none;
+  width: 42%;
   padding: 20px;
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +186,6 @@ const HeaderButton = styled.a`
   white-space: nowrap;
   background: ${(props) => props.theme.color.secondary};
   border-radius: 4px;
-  padding: 0px 40px;
   border-width: 0px;
   border-style: initial;
   border-color: initial;
