@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import { Section, Container } from "../global"
 
-const Features = () => (
+const Services = () => (
   <Section id="services">
     <StyledContainer>
       <Subtitle>Services</Subtitle>
@@ -42,7 +42,10 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Development Apps & Website</FeatureTitle>
           <FeatureText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac.
+            Creating an Android Application based on the Kotlin or Java
+            programming language or you can also use a Framework, while to
+            create a Website you can use a Framework or some kind of Content
+            Management System such as Wordpress or the like.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
@@ -50,7 +53,7 @@ const Features = () => (
   </Section>
 )
 
-export default Features
+export default Services
 
 const StyledContainer = styled(Container)``
 

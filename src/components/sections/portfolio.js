@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import { Container, Section } from "../global"
 
-const GetStarted = () => (
+const Portfolio = () => (
   <StyledSection id="portfolio">
     <GetStartedContainer>
       <GetStartedTitle>See the work produced by our team</GetStartedTitle>
@@ -19,7 +19,7 @@ const GetStarted = () => (
   </StyledSection>
 )
 
-export default GetStarted
+export default Portfolio
 
 const StyledSection = styled(Section)`
   background-color: ${(props) => props.theme.color.background.light};

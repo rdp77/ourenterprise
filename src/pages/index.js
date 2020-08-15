@@ -5,17 +5,17 @@ import SEO from "../components/common/layout/seo"
 import Navigation from "../components/common/navigation/navigation"
 
 import Header from "../components/sections/header"
-import Features from "../components/sections/features"
 import Footer from "../components/sections/footer"
-import GetStarted from "../components/sections/getstarted"
+import Portfolio from "../components/sections/portfolio"
+import Services from "../components/sections/services"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Navigation />
     <Header />
-    <Features />
-    <GetStarted />
+    <Services />
+    <Portfolio />
     <Footer />
   </Layout>
 )
