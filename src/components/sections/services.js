@@ -12,31 +12,36 @@ const Services = () => (
         <FeatureItem>
           <FeatureTitle>Digital Printing</FeatureTitle>
           <FeatureText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac.
+            Provides printing from digital images to real prints with good
+            quality and guaranteed.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Digital Imaging</FeatureTitle>
           <FeatureText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac.
+            Manipulate your images so they become real without even leaving the
+            house.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Design Graphic</FeatureTitle>
           <FeatureText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac.
+            The process of editing or selecting, managing so as to create a good
+            image according to his wishes.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>2D & 3D Architecture</FeatureTitle>
           <FeatureText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac.
+            Make plans from blueprints of building drawings and provide 2D & 3D
+            so you can be sure of our services.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Publishing</FeatureTitle>
           <FeatureText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac.
+            Publish content according to your wishes with our high quality
+            services.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -58,7 +63,7 @@ export default Services
 const StyledContainer = styled(Container)``
 
 const SectionTitle = styled.h3`
-  color: ${(props) => props.theme.color.primary};
+  color: ${props => props.theme.color.primary};
   display: flex;
   justify-content: center;
   margin: 0 auto 40px;
@@ -67,7 +72,7 @@ const SectionTitle = styled.h3`
 
 const Subtitle = styled.h5`
   font-size: 16px;
-  color: ${(props) => props.theme.color.accent};
+  color: ${props => props.theme.color.accent};
   letter-spacing: 0px;
   margin-bottom: 12px;
   text-align: center;
@@ -80,7 +85,7 @@ const FeaturesGrid = styled.div`
   margin: 0px auto;
   grid-column-gap: 40px;
   grid-row-gap: 35px;
-  @media (max-width: ${(props) => props.theme.screen.sm}) {
+  @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr;
     padding: 0 64px;
   }
@@ -94,7 +99,7 @@ const FeatureItem = styled.div`
 `
 
 const FeatureTitle = styled.h4`
-  color: ${(props) => props.theme.color.primary};
+  color: ${props => props.theme.color.primary};
   letter-spacing: 0px;
   line-height: 30px;
   margin-bottom: 10px;
