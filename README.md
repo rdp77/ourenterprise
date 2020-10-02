@@ -1,8 +1,4 @@
-## ☁️ A simple one page marketing site starter for SaaS companies and indie hackers.
-
-[Live Demo: https://gatsby-starter-saas-marketing.netlify.com/ ](https://gatsby-starter-saas-marketing.netlify.com/)
-
-### Getting started
+## Getting started
 
 install Gatsby CLI - [more info](https://www.gatsbyjs.org/tutorial/part-zero/)
 ```sh
